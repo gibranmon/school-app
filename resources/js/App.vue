@@ -3,5 +3,5 @@ import { ref} from 'vue'
 
 </script>
 <template>
-    <div></div>
+    <h1>Hola desde Vue</h1>
 </template>
