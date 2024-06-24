@@ -1,5 +1,15 @@
 <script lang='ts' setup>
-import { ref} from 'vue'
+import { ref, onMounted} from 'vue'
+import api from '../api/api'
+
+const axiosTest = async () => {
+    const data = await api.get('/test')
+    console.log(data)
+}
+
+onMounted(async () => {
+    await axiosTest()
+})
 
 </script>
 <template>
