@@ -3,5 +3,5 @@ import { ref} from 'vue'
 
 </script>
 <template>
-    <RouterView />
+    <h1>Vista Home</h1>
 </template>

@@ -6,8 +6,13 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@tsconfig/node16": "^16.1.3",
+        "@types/node": "^16.18.101",
+        "@vue/cli-plugin-typescript": "~5.0.0",
+        "@vue/tsconfig": "^0.5.1",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
+        "typescript": "^5.5.2",
         "vite": "^5.0"
     },
     "dependencies": {
