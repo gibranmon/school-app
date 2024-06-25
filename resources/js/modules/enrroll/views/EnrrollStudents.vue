@@ -5,7 +5,7 @@ import useEnrroll from '../composables/useEnrroll';
 const { students } = useEnrroll()
 </script>
 <template>
-    <div>
+    <div class="relative overflow-x-auto">
         <EnrrollStudentsTable :students="students" />
     </div>
 </template>
